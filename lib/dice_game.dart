@@ -43,7 +43,7 @@ class _DiceGameState extends State<DiceGame> {
       imgPath = "assets/images/dice$num1.png";
       Constants.playerOneList.add(num1);
       isPlayer1 = false;
-      print(counter1);
+      debugPrint(counter1.toString());
     });
   }
 
